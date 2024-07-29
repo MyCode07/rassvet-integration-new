@@ -1,0 +1,4 @@
+[2024-07-27T21:41:34.675243+00:00] app.ERROR: fuck [] []
+[2024-07-27T21:41:34.678794+00:00] app.WARNING: Route not found: /test [] []
+[2024-07-27T21:41:49.028961+00:00] app.ERROR: fuck [] []
+[2024-07-27T21:41:49.031876+00:00] app.WARNING: Route not found: /test [] []

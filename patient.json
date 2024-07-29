@@ -1,0 +1,4033 @@
+{
+    "data": {
+        "type": "diary",
+        "locale": "ru",
+        "doctor": {
+            "id": 2,
+            "middle_name": "Азаматович",
+            "first_name": "Мурат",
+            "last_name": "Каде",
+            "profession": "Врач, нутрициолог,  к.м.н.",
+            "title": "к.м.н.",
+            "work": "Nutrient Planner",
+            "post": null,
+            "city": null
+        },
+        "patient": {
+            "id": 4448,
+            "middle_name": "Алексеевна",
+            "first_name": "Елена",
+            "last_name": "Чабанец",
+            "age": 51,
+            "gender": 1,
+            "height": 164,
+            "weight": 78,
+            "hip": 108,
+            "chest": 104,
+            "waist": 84,
+            "wrist": 16,
+            "sport": "Легкий спорт",
+            "working_group": "Работник лёгкого физического труда",
+            "daily_norms": {
+                "energy": 1984.71,
+                "fat": 55.13,
+                "protein": 69.46,
+                "carbohydrate": 297.71,
+                "water": 2340,
+                "ash": 24084,
+                "fiber": 25,
+                "starch": 124.04,
+                "cholesterol": 300,
+                "sfa": 18.9,
+                "sugars": 100,
+                "fructose": 35,
+                "purines": 400,
+                "oxalic": 400,
+                "lutein": 6000,
+                "tryptophan": 0.31,
+                "threonine": 1.17,
+                "isoleucine": 1.56,
+                "leucine": 3.04,
+                "lysine": 2.34,
+                "methionine": 0.78,
+                "cystine": 0.31,
+                "phenylalanine": 1.72,
+                "tyrosine": 3,
+                "valine": 2.03,
+                "arginine": 6,
+                "histidine": 0.78,
+                "alanine": 3,
+                "aspartic_acid": 6,
+                "glutamic_acid": 14,
+                "glycine": 3.5,
+                "proline": 5,
+                "serine": 3,
+                "omega_3": 2.21,
+                "omega_6": 8.82,
+                "omega_9": 22.05,
+                "galactose": 0.7,
+                "lactose": 15,
+                "calcium": 1000,
+                "iron": 18,
+                "magnesium": 320,
+                "phosphorus": 800,
+                "potassium": 2500,
+                "sodium": 1500,
+                "zinc": 8,
+                "copper": 1000,
+                "manganese": 1.8,
+                "silicon": 30,
+                "sulfur": 500,
+                "chlorine": 2000,
+                "aluminum": 37,
+                "bor": 1000,
+                "vanadium": 15,
+                "iodine": 150,
+                "cobalt": 10,
+                "molybdenum": 45,
+                "nickel": 150,
+                "strontium": 2,
+                "titanium": 0.85,
+                "fluorine": 3000,
+                "chrome": 25,
+                "tin": 6,
+                "selen": 55,
+                "rubidium": 0.1,
+                "lithium": 100,
+                "zirconium": 0.05,
+                "bromine": 2,
+                "vitamin_a": 700,
+                "beta_carotene": 4.2,
+                "alpha_carotene": 5000,
+                "vitamin_d": 15,
+                "vitamin_e": 15,
+                "vitamin_k": 90,
+                "vitamin_c": 75,
+                "vitamin_b1": 1.1,
+                "vitamin_b2": 1.1,
+                "choline": 425,
+                "vitamin_b5": 5,
+                "vitamin_b6": 1.3,
+                "vitamin_b9": 400,
+                "vitamin_b12": 2.4,
+                "biotin": 30,
+                "phytosterol": 300,
+                "vitamin_b3": 14
+            },
+            "meta": {
+                "base_metabolism": 1439,
+                "recommended_weight": 57,
+                "allergy": {
+                    "product": {
+                        "product": null,
+                        "products": [],
+                        "noAllergy": "Нет аллергии"
+                    },
+                    "medicine": {
+                        "noAllergy": "Нет аллергии"
+                    }
+                },
+                "bioimpedansometry": {
+                    "fatMassKg": {
+                        "maxThreshold": 1587,
+                        "minThreshold": 1173,
+                        "mass": null,
+                        "unit": "unit.sm"
+                    },
+                    "fatMassPercent": {
+                        "maxThreshold": 1587,
+                        "minThreshold": 1173,
+                        "mass": null,
+                        "unit": "unit.sm"
+                    },
+                    "muscleMassKg": {
+                        "maxThreshold": 1587,
+                        "minThreshold": 1173,
+                        "mass": null,
+                        "unit": "unit.sm"
+                    },
+                    "muscleMassPercent": {
+                        "maxThreshold": 1587,
+                        "minThreshold": 1173,
+                        "mass": null,
+                        "unit": "unit.sm"
+                    },
+                    "totalFluid": {
+                        "maxThreshold": 1587,
+                        "minThreshold": 1173,
+                        "mass": null,
+                        "unit": "unit.sm"
+                    },
+                    "skinnyBodyMass": {
+                        "maxThreshold": 1587,
+                        "minThreshold": 1173,
+                        "mass": null,
+                        "unit": "unit.sm"
+                    },
+                    "visceralFat": {
+                        "maxThreshold": 1587,
+                        "minThreshold": 1173,
+                        "mass": null,
+                        "unit": "unit.sm"
+                    },
+                    "intracellularFluid": {
+                        "maxThreshold": 1587,
+                        "minThreshold": 1173,
+                        "mass": null,
+                        "unit": "unit.sm"
+                    },
+                    "activeCellMass": {
+                        "maxThreshold": 1587,
+                        "minThreshold": 1173,
+                        "mass": null,
+                        "unit": "unit.sm"
+                    }
+                },
+                "chronicDiseases": [
+                    "бронхит хронический",
+                    "миома матки"
+                ],
+                "specialStates": null,
+                "stress": "Нет стресса",
+                "badHabits": {
+                    "coffee": {
+                        "unit": "Чашка(и) в день",
+                        "amount": 5,
+                        "answer": "Да"
+                    },
+                    "smoke": {
+                        "unit": "Сигарет в сутки",
+                        "amount": null,
+                        "answer": "Нет"
+                    }
+                },
+                "indexes": {
+                    "imt": {
+                        "value": 29,
+                        "info": "Болезненная полнота - 1-я степень"
+                    },
+                    "jmt": {
+                        "value": 29,
+                        "info": "Болезненная полнота - 1-я степень"
+                    },
+                    "percent_fat": {
+                        "value": 27,
+                        "info": "Средний уровень"
+                    },
+                    "index_soloviev": {
+                        "value": 16,
+                        "info": "Нормостенический"
+                    },
+                    "index_body_obesity": {
+                        "value": 33,
+                        "info": "Норма"
+                    },
+                    "index_pignet": {
+                        "value": 0,
+                        "info": "Крепкое"
+                    },
+                    "index_waist_hip": {
+                        "value": 0.78,
+                        "info": "Тип распределения жировой ткани: Гиноидный"
+                    }
+                }
+            }
+        },
+        "diary": {
+            "diet_restrictions": [],
+            "calorieDistributionOfMeals": [
+                {
+                    "energy": 521,
+                    "ingestion": "Завтрак",
+                    "time": "09:00",
+                    "percent": 46.2
+                },
+                {
+                    "energy": 285,
+                    "ingestion": "Обед",
+                    "time": "14:00",
+                    "percent": 25.3
+                },
+                {
+                    "energy": 321,
+                    "ingestion": "Ужин",
+                    "time": "19:00",
+                    "percent": 28.5
+                }
+            ],
+            "waterDeviationFromNorm": {
+                "maxThreshold": 2691,
+                "minThreshold": 1989,
+                "mass": 568.19,
+                "norm": 2340,
+                "unit": "г",
+                "status": "deficit"
+            },
+            "nutrientsInfo": {
+                "nutrients": {
+                    "other": {
+                        "energy": {
+                            "maxThreshold": 2183.18,
+                            "minThreshold": 1786.24,
+                            "norm": 1984.71,
+                            "mass": 1127,
+                            "unit": "кКал",
+                            "status": "deficit",
+                            "percent": 56.8,
+                            "title": "Калории"
+                        },
+                        "water": {
+                            "maxThreshold": 2574,
+                            "minThreshold": 2106,
+                            "norm": 2340,
+                            "mass": 568.19,
+                            "unit": "г",
+                            "status": "deficit",
+                            "percent": 24.3,
+                            "title": "Вода"
+                        },
+                        "cholesterol": {
+                            "maxThreshold": 300,
+                            "minThreshold": 270,
+                            "norm": 300,
+                            "mass": 271,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 90.3,
+                            "title": "Холестерин"
+                        },
+                        "purines": {
+                            "maxThreshold": 400,
+                            "minThreshold": 360,
+                            "norm": 400,
+                            "mass": 150,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 37.5,
+                            "title": "Пурины"
+                        },
+                        "oxalic": {
+                            "maxThreshold": 400,
+                            "minThreshold": 360,
+                            "norm": 400,
+                            "mass": 0,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 0,
+                            "title": "Щавелевая кислота"
+                        },
+                        "lutein": {
+                            "maxThreshold": 6600,
+                            "minThreshold": 5400,
+                            "norm": 6000,
+                            "mass": 0,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 0,
+                            "title": "Лютеин"
+                        },
+                        "phytosterol": {
+                            "maxThreshold": 330,
+                            "minThreshold": 270,
+                            "norm": 300,
+                            "mass": 0,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 0,
+                            "title": "Фитостеролы"
+                        }
+                    },
+                    "fats": {
+                        "fat": {
+                            "maxThreshold": 60.64,
+                            "minThreshold": 49.62,
+                            "norm": 55.13,
+                            "mass": 46.62,
+                            "unit": "г",
+                            "status": "deficit",
+                            "percent": 84.6,
+                            "title": "Жиры"
+                        },
+                        "sfa": {
+                            "maxThreshold": 18.9,
+                            "minThreshold": 17.01,
+                            "norm": 18.9,
+                            "mass": 13.06,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 69.1,
+                            "title": "Насыщенные жирные кислоты"
+                        },
+                        "omega_3": {
+                            "maxThreshold": 8.84,
+                            "minThreshold": 1.99,
+                            "norm": 2.21,
+                            "mass": 0.19,
+                            "unit": "г",
+                            "status": "deficit",
+                            "percent": 8.6,
+                            "title": "Омега-3"
+                        },
+                        "omega_6": {
+                            "maxThreshold": 26.46,
+                            "minThreshold": 7.94,
+                            "norm": 8.82,
+                            "mass": 9.9,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 112.2,
+                            "title": "Омега-6"
+                        },
+                        "omega_9": {
+                            "maxThreshold": 24.26,
+                            "minThreshold": 19.85,
+                            "norm": 22.05,
+                            "mass": 16.49,
+                            "unit": "г",
+                            "status": "deficit",
+                            "percent": 74.8,
+                            "title": "Омега-9"
+                        }
+                    },
+                    "protein": {
+                        "protein": {
+                            "maxThreshold": 76.41,
+                            "minThreshold": 62.51,
+                            "norm": 69.46,
+                            "mass": 152.41,
+                            "unit": "г",
+                            "status": "excess",
+                            "percent": 219.4,
+                            "title": "Белки"
+                        },
+                        "tryptophan": {
+                            "maxThreshold": 0.34,
+                            "minThreshold": 0.28,
+                            "norm": 0.31,
+                            "mass": 1.53,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 493.5,
+                            "title": "Триптофан"
+                        },
+                        "threonine": {
+                            "maxThreshold": 1.29,
+                            "minThreshold": 1.05,
+                            "norm": 1.17,
+                            "mass": 6.2,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 529.9,
+                            "title": "Треонин"
+                        },
+                        "isoleucine": {
+                            "maxThreshold": 1.72,
+                            "minThreshold": 1.4,
+                            "norm": 1.56,
+                            "mass": 6.13,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 392.9,
+                            "title": "Изолейцин"
+                        },
+                        "leucine": {
+                            "maxThreshold": 3.34,
+                            "minThreshold": 2.74,
+                            "norm": 3.04,
+                            "mass": 11.25,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 370.1,
+                            "title": "Лейцин"
+                        },
+                        "lysine": {
+                            "maxThreshold": 2.57,
+                            "minThreshold": 2.11,
+                            "norm": 2.34,
+                            "mass": 11.8,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 504.3,
+                            "title": "Лизин"
+                        },
+                        "methionine": {
+                            "maxThreshold": 0.86,
+                            "minThreshold": 0.7,
+                            "norm": 0.78,
+                            "mass": 3.57,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 457.7,
+                            "title": "Метионин"
+                        },
+                        "cystine": {
+                            "maxThreshold": 0.34,
+                            "minThreshold": 0.28,
+                            "norm": 0.31,
+                            "mass": 1.68,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 541.9,
+                            "title": "Цистеин"
+                        },
+                        "phenylalanine": {
+                            "maxThreshold": 1.89,
+                            "minThreshold": 1.55,
+                            "norm": 1.72,
+                            "mass": 5.77,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 335.5,
+                            "title": "Фенилаланин"
+                        },
+                        "tyrosine": {
+                            "maxThreshold": 3.3,
+                            "minThreshold": 2.7,
+                            "norm": 3,
+                            "mass": 4.81,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 160.3,
+                            "title": "Тирозин"
+                        },
+                        "valine": {
+                            "maxThreshold": 2.23,
+                            "minThreshold": 1.83,
+                            "norm": 2.03,
+                            "mass": 6.86,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 337.9,
+                            "title": "Валин"
+                        },
+                        "arginine": {
+                            "maxThreshold": 6.6,
+                            "minThreshold": 5.4,
+                            "norm": 6,
+                            "mass": 9.24,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 154,
+                            "title": "Аргинин"
+                        },
+                        "histidine": {
+                            "maxThreshold": 0.86,
+                            "minThreshold": 0.7,
+                            "norm": 0.78,
+                            "mass": 5.04,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 646.2,
+                            "title": "Гистидин"
+                        },
+                        "alanine": {
+                            "maxThreshold": 3.3,
+                            "minThreshold": 2.7,
+                            "norm": 3,
+                            "mass": 8.81,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 293.7,
+                            "title": "Аланин"
+                        },
+                        "aspartic_acid": {
+                            "maxThreshold": 6.6,
+                            "minThreshold": 5.4,
+                            "norm": 6,
+                            "mass": 12.72,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 212,
+                            "title": "Аспарагиновая кислота"
+                        },
+                        "glutamic_acid": {
+                            "maxThreshold": 15.4,
+                            "minThreshold": 12.6,
+                            "norm": 14,
+                            "mass": 23.41,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 167.2,
+                            "title": "Глутаминовая кислота"
+                        },
+                        "glycine": {
+                            "maxThreshold": 3.85,
+                            "minThreshold": 3.15,
+                            "norm": 3.5,
+                            "mass": 8.45,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 241.4,
+                            "title": "Глицин"
+                        },
+                        "proline": {
+                            "maxThreshold": 5.5,
+                            "minThreshold": 4.5,
+                            "norm": 5,
+                            "mass": 7.61,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 152.2,
+                            "title": "Пролин"
+                        },
+                        "serine": {
+                            "maxThreshold": 3.3,
+                            "minThreshold": 2.7,
+                            "norm": 3,
+                            "mass": 5.77,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 192.3,
+                            "title": "Серин"
+                        }
+                    },
+                    "carbohydrate": {
+                        "carbohydrate": {
+                            "maxThreshold": 327.48,
+                            "minThreshold": 267.94,
+                            "norm": 297.71,
+                            "mass": 16.62,
+                            "unit": "г",
+                            "status": "deficit",
+                            "percent": 5.6,
+                            "title": ""
+                        },
+                        "fiber": {
+                            "maxThreshold": 27.5,
+                            "minThreshold": 22.5,
+                            "norm": 25,
+                            "mass": 2.1,
+                            "unit": "г",
+                            "status": "deficit",
+                            "percent": 8.4,
+                            "title": ""
+                        },
+                        "starch": {
+                            "maxThreshold": 136.44,
+                            "minThreshold": 111.64,
+                            "norm": 124.04,
+                            "mass": 0,
+                            "unit": "г",
+                            "status": "deficit",
+                            "percent": 0,
+                            "title": ""
+                        },
+                        "sugars": {
+                            "maxThreshold": 100,
+                            "minThreshold": 90,
+                            "norm": 100,
+                            "mass": 0,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 0,
+                            "title": ""
+                        },
+                        "fructose": {
+                            "maxThreshold": 38.5,
+                            "minThreshold": 31.5,
+                            "norm": 35,
+                            "mass": 0,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 0,
+                            "title": ""
+                        },
+                        "galactose": {
+                            "maxThreshold": 0.77,
+                            "minThreshold": 0.63,
+                            "norm": 0.7,
+                            "mass": 0,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 0,
+                            "title": ""
+                        },
+                        "lactose": {
+                            "maxThreshold": 16.5,
+                            "minThreshold": 13.5,
+                            "norm": 15,
+                            "mass": 0,
+                            "unit": "г",
+                            "status": "normal",
+                            "percent": 0,
+                            "title": ""
+                        }
+                    },
+                    "minerals": {
+                        "calcium": {
+                            "maxThreshold": 2500,
+                            "minThreshold": 900,
+                            "norm": 1000,
+                            "mass": 154,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 15.4,
+                            "title": "Кальций"
+                        },
+                        "iron": {
+                            "maxThreshold": 45,
+                            "minThreshold": 16.2,
+                            "norm": 18,
+                            "mass": 9.91,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 55.1,
+                            "title": ""
+                        },
+                        "magnesium": {
+                            "maxThreshold": 1000,
+                            "minThreshold": 288,
+                            "norm": 320,
+                            "mass": 163,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 50.9,
+                            "title": "Магний"
+                        },
+                        "phosphorus": {
+                            "maxThreshold": 880,
+                            "minThreshold": 720,
+                            "norm": 800,
+                            "mass": 1510,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 188.8,
+                            "title": "Фосфор"
+                        },
+                        "potassium": {
+                            "maxThreshold": 5000,
+                            "minThreshold": 2250,
+                            "norm": 2500,
+                            "mass": 2121,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 84.8,
+                            "title": "Калий"
+                        },
+                        "sodium": {
+                            "maxThreshold": 1650,
+                            "minThreshold": 1350,
+                            "norm": 1500,
+                            "mass": 3188,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 212.5,
+                            "title": "Натрий"
+                        },
+                        "zinc": {
+                            "maxThreshold": 40,
+                            "minThreshold": 7.2,
+                            "norm": 8,
+                            "mass": 18.77,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 234.6,
+                            "title": ""
+                        },
+                        "copper": {
+                            "maxThreshold": 5000,
+                            "minThreshold": 900,
+                            "norm": 1000,
+                            "mass": 1276,
+                            "unit": "мкг",
+                            "status": "normal",
+                            "percent": 127.6,
+                            "title": ""
+                        },
+                        "manganese": {
+                            "maxThreshold": 11,
+                            "minThreshold": 1.62,
+                            "norm": 1.8,
+                            "mass": 0.38,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 21.1,
+                            "title": ""
+                        },
+                        "silicon": {
+                            "maxThreshold": 33,
+                            "minThreshold": 27,
+                            "norm": 30,
+                            "mass": 0,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 0,
+                            "title": "Кремний"
+                        },
+                        "sulfur": {
+                            "maxThreshold": 550,
+                            "minThreshold": 450,
+                            "norm": 500,
+                            "mass": 1524.1,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 304.8,
+                            "title": "Сера"
+                        },
+                        "chlorine": {
+                            "maxThreshold": 2200,
+                            "minThreshold": 1800,
+                            "norm": 2000,
+                            "mass": 90,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 4.5,
+                            "title": ""
+                        },
+                        "bor": {
+                            "maxThreshold": 6000,
+                            "minThreshold": 900,
+                            "norm": 1000,
+                            "mass": 0,
+                            "unit": "мкг",
+                            "status": "deficit",
+                            "percent": 0,
+                            "title": ""
+                        },
+                        "vanadium": {
+                            "maxThreshold": 16.5,
+                            "minThreshold": 13.5,
+                            "norm": 15,
+                            "mass": 0,
+                            "unit": "мкг",
+                            "status": "deficit",
+                            "percent": 0,
+                            "title": ""
+                        },
+                        "iodine": {
+                            "maxThreshold": 1000,
+                            "minThreshold": 135,
+                            "norm": 150,
+                            "mass": 0,
+                            "unit": "мкг",
+                            "status": "deficit",
+                            "percent": 0,
+                            "title": ""
+                        },
+                        "cobalt": {
+                            "maxThreshold": 50,
+                            "minThreshold": 9,
+                            "norm": 10,
+                            "mass": 15,
+                            "unit": "мкг",
+                            "status": "normal",
+                            "percent": 150,
+                            "title": ""
+                        },
+                        "molybdenum": {
+                            "maxThreshold": 200,
+                            "minThreshold": 40.5,
+                            "norm": 45,
+                            "mass": 29,
+                            "unit": "мкг",
+                            "status": "deficit",
+                            "percent": 64.4,
+                            "title": ""
+                        },
+                        "chrome": {
+                            "maxThreshold": 250,
+                            "minThreshold": 22.5,
+                            "norm": 25,
+                            "mass": 11,
+                            "unit": "мкг",
+                            "status": "deficit",
+                            "percent": 44,
+                            "title": ""
+                        },
+                        "selen": {
+                            "maxThreshold": 150,
+                            "minThreshold": 49.5,
+                            "norm": 55,
+                            "mass": 175.1,
+                            "unit": "мкг",
+                            "status": "excess",
+                            "percent": 318.4,
+                            "title": ""
+                        },
+                        "bromine": {
+                            "maxThreshold": 2.2,
+                            "minThreshold": 1.8,
+                            "norm": 2,
+                            "mass": 0,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 0,
+                            "title": ""
+                        }
+                    },
+                    "vitamins": {
+                        "vitamin_a": {
+                            "maxThreshold": 3000,
+                            "minThreshold": 630,
+                            "norm": 700,
+                            "mass": 243.02,
+                            "unit": "мкг",
+                            "status": "deficit",
+                            "percent": 34.7,
+                            "title": ""
+                        },
+                        "beta_carotene": {
+                            "maxThreshold": 4.62,
+                            "minThreshold": 3.78,
+                            "norm": 4.2,
+                            "mass": 2.01,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 47.9,
+                            "title": ""
+                        },
+                        "vitamin_d": {
+                            "maxThreshold": 16.5,
+                            "minThreshold": 13.5,
+                            "norm": 15,
+                            "mass": 1.3,
+                            "unit": "мкг",
+                            "status": "deficit",
+                            "percent": 8.7,
+                            "title": ""
+                        },
+                        "vitamin_e": {
+                            "maxThreshold": 100,
+                            "minThreshold": 13.5,
+                            "norm": 15,
+                            "mass": 0.39,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 2.6,
+                            "title": ""
+                        },
+                        "vitamin_k": {
+                            "maxThreshold": 99,
+                            "minThreshold": 81,
+                            "norm": 90,
+                            "mass": 0,
+                            "unit": "мкг",
+                            "status": "deficit",
+                            "percent": 0,
+                            "title": ""
+                        },
+                        "vitamin_c": {
+                            "maxThreshold": 2000,
+                            "minThreshold": 67.5,
+                            "norm": 75,
+                            "mass": 1.8,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 2.4,
+                            "title": ""
+                        },
+                        "vitamin_b1": {
+                            "maxThreshold": 5.1,
+                            "minThreshold": 0.99,
+                            "norm": 1.1,
+                            "mass": 1.39,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 126.4,
+                            "title": ""
+                        },
+                        "vitamin_b2": {
+                            "maxThreshold": 6,
+                            "minThreshold": 0.99,
+                            "norm": 1.1,
+                            "mass": 1.5,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 136.4,
+                            "title": ""
+                        },
+                        "choline": {
+                            "maxThreshold": 550,
+                            "minThreshold": 382.5,
+                            "norm": 425,
+                            "mass": 289,
+                            "unit": "мг",
+                            "status": "deficit",
+                            "percent": 68,
+                            "title": "Холин"
+                        },
+                        "vitamin_b5": {
+                            "maxThreshold": 5.5,
+                            "minThreshold": 4.5,
+                            "norm": 5,
+                            "mass": 5.1,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 102,
+                            "title": ""
+                        },
+                        "vitamin_b6": {
+                            "maxThreshold": 6,
+                            "minThreshold": 1.17,
+                            "norm": 1.3,
+                            "mass": 2.96,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 227.7,
+                            "title": ""
+                        },
+                        "vitamin_b9": {
+                            "maxThreshold": 1000,
+                            "minThreshold": 360,
+                            "norm": 400,
+                            "mass": 29,
+                            "unit": "мкг",
+                            "status": "deficit",
+                            "percent": 7.3,
+                            "title": ""
+                        },
+                        "vitamin_b12": {
+                            "maxThreshold": 9,
+                            "minThreshold": 2.16,
+                            "norm": 2.4,
+                            "mass": 8.64,
+                            "unit": "мкг",
+                            "status": "normal",
+                            "percent": 360,
+                            "title": ""
+                        },
+                        "biotin": {
+                            "maxThreshold": 150,
+                            "minThreshold": 27,
+                            "norm": 30,
+                            "mass": 0,
+                            "unit": "мкг",
+                            "status": "deficit",
+                            "percent": 0,
+                            "title": ""
+                        },
+                        "vitamin_b3": {
+                            "maxThreshold": 60,
+                            "minThreshold": 12.6,
+                            "norm": 14,
+                            "mass": 28.89,
+                            "unit": "мг",
+                            "status": "normal",
+                            "percent": 206.4,
+                            "title": "Витамин B3"
+                        }
+                    }
+                },
+                "meta": {
+                    "deficit": 43.8,
+                    "normal": 53.4,
+                    "excess": 2.7
+                }
+            },
+            "ratioPFC": {
+                "proteinPercent": 55.6,
+                "fatsPercent": 38.3,
+                "carbohydratePercent": 6.1,
+                "protein": 152.41,
+                "fat": 46.62,
+                "carbohydrate": 16.62,
+                "ratio": "6/4/1",
+                "unit": "г"
+            },
+            "ratioOmegas": {
+                "omega3": 0.19,
+                "omega6": 9.9,
+                "omega3Percent": 1.9,
+                "omega6Percent": 98.1,
+                "ratio": "0/10",
+                "unit": "г"
+            },
+            "ratioSodiumPotassium": {
+                "sodiumPercent": 60.1,
+                "potassiumPercent": 39.9,
+                "sodium": 3.19,
+                "potassium": 2.12,
+                "ratio": "6/4",
+                "unit": "г"
+            },
+            "ratioCalciumPhosphorusMagnesium": {
+                "calciumPercent": 8.2,
+                "phosphorusPercent": 83,
+                "magnesiumPercent": 8.8,
+                "calcium": 0.15,
+                "phosphorus": 1.51,
+                "magnesium": 0.16,
+                "ratio": "1/8/1",
+                "unit": "г"
+            },
+            "percentCarbohydrates": {
+                "starch": 0,
+                "fiber": 100,
+                "simpleCarbohydrates": 0,
+                "otherCarbohydrates": 0
+            },
+            "percentCategoryProductInDiary": [
+                {
+                    "percent": 62.5,
+                    "mass": 500,
+                    "title": "",
+                    "unit": "г"
+                },
+                {
+                    "percent": 25,
+                    "mass": 200,
+                    "title": "Мясо",
+                    "unit": "г"
+                },
+                {
+                    "percent": 12.5,
+                    "mass": 100,
+                    "title": "Птица",
+                    "unit": "г"
+                },
+                {
+                    "percent": 0,
+                    "mass": 0,
+                    "title": "Другое",
+                    "unit": "г"
+                }
+            ]
+        },
+        "ration": {
+            "infoNutrientsByRation": [
+                {
+                    "nutrients": {
+                        "other": {
+                            "energy": {
+                                "maxThreshold": 2183.18,
+                                "minThreshold": 1786.24,
+                                "norm": 1984.71,
+                                "mass": 1953.84,
+                                "unit": "кКал",
+                                "status": "normal",
+                                "percent": 98.4,
+                                "title": "Калории"
+                            },
+                            "water": {
+                                "maxThreshold": 2574,
+                                "minThreshold": 2106,
+                                "norm": 2340,
+                                "mass": 1548.03,
+                                "unit": "г",
+                                "status": "deficit",
+                                "percent": 66.2,
+                                "title": "Вода"
+                            },
+                            "cholesterol": {
+                                "maxThreshold": 300,
+                                "minThreshold": 270,
+                                "norm": 300,
+                                "mass": 222.68,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 74.2,
+                                "title": "Холестерин"
+                            },
+                            "purines": {
+                                "maxThreshold": 400,
+                                "minThreshold": 360,
+                                "norm": 400,
+                                "mass": 314.95,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 78.7,
+                                "title": "Пурины"
+                            },
+                            "oxalic": {
+                                "maxThreshold": 400,
+                                "minThreshold": 360,
+                                "norm": 400,
+                                "mass": 88.11,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 22,
+                                "title": "Щавелевая кислота"
+                            },
+                            "lutein": {
+                                "maxThreshold": 6600,
+                                "minThreshold": 5400,
+                                "norm": 6000,
+                                "mass": 927.64,
+                                "unit": "мг",
+                                "status": "deficit",
+                                "percent": 15.5,
+                                "title": "Лютеин"
+                            },
+                            "phytosterol": {
+                                "maxThreshold": 330,
+                                "minThreshold": 270,
+                                "norm": 300,
+                                "mass": 77.67,
+                                "unit": "мг",
+                                "status": "deficit",
+                                "percent": 25.9,
+                                "title": "Фитостеролы"
+                            }
+                        },
+                        "fats": {
+                            "fat": {
+                                "maxThreshold": 60.64,
+                                "minThreshold": 49.62,
+                                "norm": 55.13,
+                                "mass": 56.76,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 103,
+                                "title": "Жиры"
+                            },
+                            "sfa": {
+                                "maxThreshold": 18.9,
+                                "minThreshold": 17.01,
+                                "norm": 18.9,
+                                "mass": 17.27,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 91.4,
+                                "title": "Насыщенные жирные кислоты"
+                            },
+                            "omega_3": {
+                                "maxThreshold": 8.84,
+                                "minThreshold": 1.99,
+                                "norm": 2.21,
+                                "mass": 1.84,
+                                "unit": "г",
+                                "status": "deficit",
+                                "percent": 83.3,
+                                "title": "Омега-3"
+                            },
+                            "omega_6": {
+                                "maxThreshold": 26.46,
+                                "minThreshold": 7.94,
+                                "norm": 8.82,
+                                "mass": 7.08,
+                                "unit": "г",
+                                "status": "deficit",
+                                "percent": 80.3,
+                                "title": "Омега-6"
+                            },
+                            "omega_9": {
+                                "maxThreshold": 24.26,
+                                "minThreshold": 19.85,
+                                "norm": 22.05,
+                                "mass": 14.42,
+                                "unit": "г",
+                                "status": "deficit",
+                                "percent": 65.4,
+                                "title": "Омега-9"
+                            }
+                        },
+                        "protein": {
+                            "protein": {
+                                "maxThreshold": 76.41,
+                                "minThreshold": 62.51,
+                                "norm": 69.46,
+                                "mass": 84.72,
+                                "unit": "г",
+                                "status": "excess",
+                                "percent": 122,
+                                "title": "Белки"
+                            },
+                            "tryptophan": {
+                                "maxThreshold": 0.34,
+                                "minThreshold": 0.28,
+                                "norm": 0.31,
+                                "mass": 0.93,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 300,
+                                "title": "Триптофан"
+                            },
+                            "threonine": {
+                                "maxThreshold": 1.29,
+                                "minThreshold": 1.05,
+                                "norm": 1.17,
+                                "mass": 3.22,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 275.2,
+                                "title": "Треонин"
+                            },
+                            "isoleucine": {
+                                "maxThreshold": 1.72,
+                                "minThreshold": 1.4,
+                                "norm": 1.56,
+                                "mass": 3.63,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 232.7,
+                                "title": "Изолейцин"
+                            },
+                            "leucine": {
+                                "maxThreshold": 3.34,
+                                "minThreshold": 2.74,
+                                "norm": 3.04,
+                                "mass": 6.48,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 213.2,
+                                "title": "Лейцин"
+                            },
+                            "lysine": {
+                                "maxThreshold": 2.57,
+                                "minThreshold": 2.11,
+                                "norm": 2.34,
+                                "mass": 5.13,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 219.2,
+                                "title": "Лизин"
+                            },
+                            "methionine": {
+                                "maxThreshold": 0.86,
+                                "minThreshold": 0.7,
+                                "norm": 0.78,
+                                "mass": 1.69,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 216.7,
+                                "title": "Метионин"
+                            },
+                            "cystine": {
+                                "maxThreshold": 0.34,
+                                "minThreshold": 0.28,
+                                "norm": 0.31,
+                                "mass": 1.27,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 409.7,
+                                "title": "Цистеин"
+                            },
+                            "phenylalanine": {
+                                "maxThreshold": 1.89,
+                                "minThreshold": 1.55,
+                                "norm": 1.72,
+                                "mass": 3.78,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 219.8,
+                                "title": "Фенилаланин"
+                            },
+                            "tyrosine": {
+                                "maxThreshold": 3.3,
+                                "minThreshold": 2.7,
+                                "norm": 3,
+                                "mass": 2.68,
+                                "unit": "г",
+                                "status": "deficit",
+                                "percent": 89.3,
+                                "title": "Тирозин"
+                            },
+                            "valine": {
+                                "maxThreshold": 2.23,
+                                "minThreshold": 1.83,
+                                "norm": 2.03,
+                                "mass": 4.27,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 210.3,
+                                "title": "Валин"
+                            },
+                            "arginine": {
+                                "maxThreshold": 6.6,
+                                "minThreshold": 5.4,
+                                "norm": 6,
+                                "mass": 4.67,
+                                "unit": "г",
+                                "status": "deficit",
+                                "percent": 77.8,
+                                "title": "Аргинин"
+                            },
+                            "histidine": {
+                                "maxThreshold": 0.86,
+                                "minThreshold": 0.7,
+                                "norm": 0.78,
+                                "mass": 2.41,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 309,
+                                "title": "Гистидин"
+                            },
+                            "alanine": {
+                                "maxThreshold": 3.3,
+                                "minThreshold": 2.7,
+                                "norm": 3,
+                                "mass": 3.92,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 130.7,
+                                "title": "Аланин"
+                            },
+                            "aspartic_acid": {
+                                "maxThreshold": 6.6,
+                                "minThreshold": 5.4,
+                                "norm": 6,
+                                "mass": 6.67,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 111.2,
+                                "title": "Аспарагиновая кислота"
+                            },
+                            "glutamic_acid": {
+                                "maxThreshold": 15.4,
+                                "minThreshold": 12.6,
+                                "norm": 14,
+                                "mass": 17.33,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 123.8,
+                                "title": "Глутаминовая кислота"
+                            },
+                            "glycine": {
+                                "maxThreshold": 3.85,
+                                "minThreshold": 3.15,
+                                "norm": 3.5,
+                                "mass": 3.46,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 98.9,
+                                "title": "Глицин"
+                            },
+                            "proline": {
+                                "maxThreshold": 5.5,
+                                "minThreshold": 4.5,
+                                "norm": 5,
+                                "mass": 5.58,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 111.6,
+                                "title": "Пролин"
+                            },
+                            "serine": {
+                                "maxThreshold": 3.3,
+                                "minThreshold": 2.7,
+                                "norm": 3,
+                                "mass": 3.92,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 130.7,
+                                "title": "Серин"
+                            }
+                        },
+                        "carbohydrate": {
+                            "carbohydrate": {
+                                "maxThreshold": 327.48,
+                                "minThreshold": 267.94,
+                                "norm": 297.71,
+                                "mass": 270.39,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 90.8,
+                                "title": ""
+                            },
+                            "fiber": {
+                                "maxThreshold": 27.5,
+                                "minThreshold": 22.5,
+                                "norm": 25,
+                                "mass": 28.43,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 113.7,
+                                "title": ""
+                            },
+                            "starch": {
+                                "maxThreshold": 136.44,
+                                "minThreshold": 111.64,
+                                "norm": 124.04,
+                                "mass": 157.05,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 126.6,
+                                "title": ""
+                            },
+                            "sugars": {
+                                "maxThreshold": 100,
+                                "minThreshold": 90,
+                                "norm": 100,
+                                "mass": 0,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 0,
+                                "title": ""
+                            },
+                            "fructose": {
+                                "maxThreshold": 38.5,
+                                "minThreshold": 31.5,
+                                "norm": 35,
+                                "mass": 9.82,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 28.1,
+                                "title": ""
+                            },
+                            "galactose": {
+                                "maxThreshold": 0.77,
+                                "minThreshold": 0.63,
+                                "norm": 0.7,
+                                "mass": 0.01,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 1.4,
+                                "title": ""
+                            },
+                            "lactose": {
+                                "maxThreshold": 16.5,
+                                "minThreshold": 13.5,
+                                "norm": 15,
+                                "mass": 3.2,
+                                "unit": "г",
+                                "status": "normal",
+                                "percent": 21.3,
+                                "title": ""
+                            }
+                        },
+                        "minerals": {
+                            "calcium": {
+                                "maxThreshold": 2500,
+                                "minThreshold": 900,
+                                "norm": 1000,
+                                "mass": 654.72,
+                                "unit": "мг",
+                                "status": "deficit",
+                                "percent": 65.5,
+                                "title": "Кальций"
+                            },
+                            "iron": {
+                                "maxThreshold": 45,
+                                "minThreshold": 16.2,
+                                "norm": 18,
+                                "mass": 17.64,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 98,
+                                "title": ""
+                            },
+                            "magnesium": {
+                                "maxThreshold": 1000,
+                                "minThreshold": 288,
+                                "norm": 320,
+                                "mass": 556.34,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 173.9,
+                                "title": "Магний"
+                            },
+                            "phosphorus": {
+                                "maxThreshold": 880,
+                                "minThreshold": 720,
+                                "norm": 800,
+                                "mass": 1425.78,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 178.2,
+                                "title": "Фосфор"
+                            },
+                            "potassium": {
+                                "maxThreshold": 5000,
+                                "minThreshold": 2250,
+                                "norm": 2500,
+                                "mass": 3585.3,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 143.4,
+                                "title": "Калий"
+                            },
+                            "sodium": {
+                                "maxThreshold": 1650,
+                                "minThreshold": 1350,
+                                "norm": 1500,
+                                "mass": 2179.3,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 145.3,
+                                "title": "Натрий"
+                            },
+                            "zinc": {
+                                "maxThreshold": 40,
+                                "minThreshold": 7.2,
+                                "norm": 8,
+                                "mass": 11.65,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 145.6,
+                                "title": ""
+                            },
+                            "copper": {
+                                "maxThreshold": 5000,
+                                "minThreshold": 900,
+                                "norm": 1000,
+                                "mass": 1996.02,
+                                "unit": "мкг",
+                                "status": "normal",
+                                "percent": 199.6,
+                                "title": ""
+                            },
+                            "manganese": {
+                                "maxThreshold": 11,
+                                "minThreshold": 1.62,
+                                "norm": 1.8,
+                                "mass": 6.23,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 346.1,
+                                "title": ""
+                            },
+                            "silicon": {
+                                "maxThreshold": 33,
+                                "minThreshold": 27,
+                                "norm": 30,
+                                "mass": 161.69,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 539,
+                                "title": "Кремний"
+                            },
+                            "sulfur": {
+                                "maxThreshold": 550,
+                                "minThreshold": 450,
+                                "norm": 500,
+                                "mass": 818.4,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 163.7,
+                                "title": "Сера"
+                            },
+                            "chlorine": {
+                                "maxThreshold": 2200,
+                                "minThreshold": 1800,
+                                "norm": 2000,
+                                "mass": 1906.47,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 95.3,
+                                "title": ""
+                            },
+                            "bor": {
+                                "maxThreshold": 6000,
+                                "minThreshold": 900,
+                                "norm": 1000,
+                                "mass": 833.69,
+                                "unit": "мкг",
+                                "status": "deficit",
+                                "percent": 83.4,
+                                "title": ""
+                            },
+                            "vanadium": {
+                                "maxThreshold": 16.5,
+                                "minThreshold": 13.5,
+                                "norm": 15,
+                                "mass": 265.67,
+                                "unit": "мкг",
+                                "status": "normal",
+                                "percent": 1771.1,
+                                "title": ""
+                            },
+                            "iodine": {
+                                "maxThreshold": 1000,
+                                "minThreshold": 135,
+                                "norm": 150,
+                                "mass": 85.83,
+                                "unit": "мкг",
+                                "status": "deficit",
+                                "percent": 57.2,
+                                "title": ""
+                            },
+                            "cobalt": {
+                                "maxThreshold": 50,
+                                "minThreshold": 9,
+                                "norm": 10,
+                                "mass": 28.09,
+                                "unit": "мкг",
+                                "status": "normal",
+                                "percent": 280.9,
+                                "title": ""
+                            },
+                            "molybdenum": {
+                                "maxThreshold": 200,
+                                "minThreshold": 40.5,
+                                "norm": 45,
+                                "mass": 67.86,
+                                "unit": "мкг",
+                                "status": "normal",
+                                "percent": 150.8,
+                                "title": ""
+                            },
+                            "chrome": {
+                                "maxThreshold": 250,
+                                "minThreshold": 22.5,
+                                "norm": 25,
+                                "mass": 48.39,
+                                "unit": "мкг",
+                                "status": "normal",
+                                "percent": 193.6,
+                                "title": ""
+                            },
+                            "selen": {
+                                "maxThreshold": 150,
+                                "minThreshold": 49.5,
+                                "norm": 55,
+                                "mass": 96.77,
+                                "unit": "мкг",
+                                "status": "normal",
+                                "percent": 175.9,
+                                "title": ""
+                            },
+                            "bromine": {
+                                "maxThreshold": 2.2,
+                                "minThreshold": 1.8,
+                                "norm": 2,
+                                "mass": 0.28,
+                                "unit": "мг",
+                                "status": "deficit",
+                                "percent": 14,
+                                "title": ""
+                            }
+                        },
+                        "vitamins": {
+                            "vitamin_a": {
+                                "maxThreshold": 3000,
+                                "minThreshold": 630,
+                                "norm": 700,
+                                "mass": 0.16,
+                                "unit": "мкг",
+                                "status": "deficit",
+                                "percent": 0,
+                                "title": ""
+                            },
+                            "beta_carotene": {
+                                "maxThreshold": 4.62,
+                                "minThreshold": 3.78,
+                                "norm": 4.2,
+                                "mass": 5.72,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 136.2,
+                                "title": ""
+                            },
+                            "vitamin_d": {
+                                "maxThreshold": 16.5,
+                                "minThreshold": 13.5,
+                                "norm": 15,
+                                "mass": 1.69,
+                                "unit": "мкг",
+                                "status": "deficit",
+                                "percent": 11.3,
+                                "title": ""
+                            },
+                            "vitamin_e": {
+                                "maxThreshold": 100,
+                                "minThreshold": 13.5,
+                                "norm": 15,
+                                "mass": 10.84,
+                                "unit": "мг",
+                                "status": "deficit",
+                                "percent": 72.3,
+                                "title": ""
+                            },
+                            "vitamin_k": {
+                                "maxThreshold": 99,
+                                "minThreshold": 81,
+                                "norm": 90,
+                                "mass": 165.88,
+                                "unit": "мкг",
+                                "status": "normal",
+                                "percent": 184.3,
+                                "title": ""
+                            },
+                            "vitamin_c": {
+                                "maxThreshold": 2000,
+                                "minThreshold": 67.5,
+                                "norm": 75,
+                                "mass": 91.04,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 121.4,
+                                "title": ""
+                            },
+                            "vitamin_b1": {
+                                "maxThreshold": 5.1,
+                                "minThreshold": 0.99,
+                                "norm": 1.1,
+                                "mass": 1.33,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 120.9,
+                                "title": ""
+                            },
+                            "vitamin_b2": {
+                                "maxThreshold": 6,
+                                "minThreshold": 0.99,
+                                "norm": 1.1,
+                                "mass": 1.67,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 151.8,
+                                "title": ""
+                            },
+                            "choline": {
+                                "maxThreshold": 550,
+                                "minThreshold": 382.5,
+                                "norm": 425,
+                                "mass": 298.84,
+                                "unit": "мг",
+                                "status": "deficit",
+                                "percent": 70.3,
+                                "title": "Холин"
+                            },
+                            "vitamin_b5": {
+                                "maxThreshold": 5.5,
+                                "minThreshold": 4.5,
+                                "norm": 5,
+                                "mass": 6.54,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 130.8,
+                                "title": ""
+                            },
+                            "vitamin_b6": {
+                                "maxThreshold": 6,
+                                "minThreshold": 1.17,
+                                "norm": 1.3,
+                                "mass": 2.43,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 186.9,
+                                "title": ""
+                            },
+                            "vitamin_b9": {
+                                "maxThreshold": 1000,
+                                "minThreshold": 360,
+                                "norm": 400,
+                                "mass": 313.87,
+                                "unit": "мкг",
+                                "status": "deficit",
+                                "percent": 78.5,
+                                "title": ""
+                            },
+                            "vitamin_b12": {
+                                "maxThreshold": 9,
+                                "minThreshold": 2.16,
+                                "norm": 2.4,
+                                "mass": 2.49,
+                                "unit": "мкг",
+                                "status": "normal",
+                                "percent": 103.8,
+                                "title": ""
+                            },
+                            "biotin": {
+                                "maxThreshold": 150,
+                                "minThreshold": 27,
+                                "norm": 30,
+                                "mass": 8.71,
+                                "unit": "мкг",
+                                "status": "deficit",
+                                "percent": 29,
+                                "title": ""
+                            },
+                            "vitamin_b3": {
+                                "maxThreshold": 60,
+                                "minThreshold": 12.6,
+                                "norm": 14,
+                                "mass": 33.01,
+                                "unit": "мг",
+                                "status": "normal",
+                                "percent": 235.8,
+                                "title": "Витамин B3"
+                            }
+                        }
+                    },
+                    "meta": {
+                        "deficit": 24.7,
+                        "normal": 74,
+                        "excess": 1.4
+                    }
+                }
+            ],
+            "shoppingList": [
+                {
+                    "Зелень": [
+                        {
+                            "product_id": 198,
+                            "title": "Айсберг (салат кочанный)",
+                            "mass": 20,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4279,
+                            "title": "Петрушка, свежая",
+                            "mass": 50,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4828,
+                            "title": "Rosemary, fresh",
+                            "mass": 1,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4843,
+                            "title": "Arugula",
+                            "mass": 1,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4901,
+                            "title": "Salad (lettuce)",
+                            "mass": 109,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 6089,
+                            "title": "Укроп, свежий",
+                            "mass": 40,
+                            "unit": "г"
+                        }
+                    ],
+                    "Травы": [
+                        {
+                            "product_id": 317,
+                            "title": "Базилик, свежий",
+                            "mass": 27,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3861,
+                            "title": "Мята перечная, свежая",
+                            "mass": 24,
+                            "unit": "г"
+                        }
+                    ],
+                    "Фрукты": [
+                        {
+                            "product_id": 332,
+                            "title": "Бананы",
+                            "mass": 356,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3202,
+                            "title": "Лимон",
+                            "mass": 85,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 6776,
+                            "title": "Яблоко",
+                            "mass": 739,
+                            "unit": "г"
+                        }
+                    ],
+                    "Другое12": [
+                        {
+                            "product_id": 618,
+                            "title": "Бульон, куриный",
+                            "mass": 205,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 1783,
+                            "title": "Дрожжи, прессованные",
+                            "mass": 5,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3526,
+                            "title": "Мед, пчелиный",
+                            "mass": 281,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4932,
+                            "title": "Salo salted (pork fat, without skin)",
+                            "mass": 9,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5478,
+                            "title": "Salt, table iodized",
+                            "mass": 14,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5929,
+                            "title": "Pasta, tomato",
+                            "mass": 17,
+                            "unit": "г"
+                        }
+                    ],
+                    "Грибы": [
+                        {
+                            "product_id": 756,
+                            "title": "Вешенки",
+                            "mass": 34,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 6654,
+                            "title": "Шампиньоны, сырые",
+                            "mass": 81,
+                            "unit": "г"
+                        }
+                    ],
+                    "": [
+                        {
+                            "product_id": 828,
+                            "title": "Вода",
+                            "mass": 2555,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 2175,
+                            "title": "Йогурт, 1,5% жирности натуральный",
+                            "mass": 20,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 2180,
+                            "title": "Йогурт, 6% жирности сладкий",
+                            "mass": 110,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 2739,
+                            "title": "Кофе, молотый (сваренный на воде)",
+                            "mass": 1000,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 2755,
+                            "title": "Кофе",
+                            "mass": 1000,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3136,
+                            "title": "Лаваш, армянский (хлеб, пшеничная мука)",
+                            "mass": 60,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3309,
+                            "title": "Льняное масло",
+                            "mass": 7,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3345,
+                            "title": "Макароны, сухие",
+                            "mass": 154,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3477,
+                            "title": "Масло сливочное",
+                            "mass": 43,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3652,
+                            "title": "Коровье молоко, 2,5% жирности пастеризованное",
+                            "mass": 315,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3968,
+                            "title": "Нут (турецкий горох)",
+                            "mass": 68,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4064,
+                            "title": "Оливковое масло",
+                            "mass": 12,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4131,
+                            "title": "Панировочные сухари",
+                            "mass": 61,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4474,
+                            "title": "Подсолнечное масло, высокоолеиновое (>70%)",
+                            "mass": 45,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4625,
+                            "title": "Пшеничная мука, белая высшего сорта",
+                            "mass": 303,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4659,
+                            "title": "Хлеб пшеничный",
+                            "mass": 201,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5329,
+                            "title": "Cream, 10% fat pasteurized",
+                            "mass": 8,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5333,
+                            "title": "Cream, 20% fat pasteurized",
+                            "mass": 5,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5336,
+                            "title": "Cream, 35% fat pasteurized",
+                            "mass": 24,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5376,
+                            "title": "Sour cream, 20% fat",
+                            "mass": 6,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5464,
+                            "title": "Lemon juice",
+                            "mass": 58,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5733,
+                            "title": "Parmesan cheese, mass fraction of fat 36% in dry matter",
+                            "mass": 105,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5772,
+                            "title": "Cream cheese 16.8% fat, mass fraction of fat 50% in dry matter",
+                            "mass": 41,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5781,
+                            "title": "Chees Feta, mass fraction of fat 48% in dry matter",
+                            "mass": 40,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 6587,
+                            "title": "Чай травяной без сахара",
+                            "mass": 200,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 6588,
+                            "title": "Чай ромашковый без сахара",
+                            "mass": 600,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 7439,
+                            "title": "Макароны из полбы цельнозерновые",
+                            "mass": 590,
+                            "unit": "г"
+                        }
+                    ],
+                    "Мясо": [
+                        {
+                            "product_id": 910,
+                            "title": "Говядина, 1 кат.",
+                            "mass": 88,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 1371,
+                            "title": "Говядина, фарш 5% жира сырая",
+                            "mass": 84,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5871,
+                            "title": "Veal, braised brisket",
+                            "mass": 100,
+                            "unit": "г"
+                        }
+                    ],
+                    "Орехи": [
+                        {
+                            "product_id": 1525,
+                            "title": "Грецкий орех",
+                            "mass": 41,
+                            "unit": "г"
+                        }
+                    ],
+                    "Крупы": [
+                        {
+                            "product_id": 1529,
+                            "title": "Гречиха, зерно",
+                            "mass": 91,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 1531,
+                            "title": "Гречневая каша",
+                            "mass": 350,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4665,
+                            "title": "Пшенная каша (пшено)",
+                            "mass": 330,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4773,
+                            "title": "Рис белый, длиннозерный приготовленный без соли",
+                            "mass": 550,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4778,
+                            "title": "Rice white, long grain dry",
+                            "mass": 23,
+                            "unit": "г"
+                        }
+                    ],
+                    "Овощи": [
+                        {
+                            "product_id": 2286,
+                            "title": "Капуста, белокочанная",
+                            "mass": 19,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 2334,
+                            "title": "Картофель, сырой",
+                            "mass": 282,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 2338,
+                            "title": "Картофель, белый неочищенный печеный",
+                            "mass": 250,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 2342,
+                            "title": "Картофель, фри",
+                            "mass": 310,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3281,
+                            "title": "Лук, репчатый",
+                            "mass": 74,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3735,
+                            "title": "Морковь",
+                            "mass": 359,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4008,
+                            "title": "Огурец, грунтовый",
+                            "mass": 451,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4491,
+                            "title": "Помидор (томат), грунтовый",
+                            "mass": 270,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5216,
+                            "title": "Celery",
+                            "mass": 238,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 6631,
+                            "title": "Чеснок, сырой",
+                            "mass": 20,
+                            "unit": "г"
+                        }
+                    ],
+                    "Специи": [
+                        {
+                            "product_id": 2713,
+                            "title": "Корица, молотая",
+                            "mass": 2,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3212,
+                            "title": "Лимонная цедра, сырая",
+                            "mass": 3,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4220,
+                            "title": "Перец красный, молотый острый",
+                            "mass": 2,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 4241,
+                            "title": "Перец черный,  молотый или горошек",
+                            "mass": 10,
+                            "unit": "г"
+                        }
+                    ],
+                    "Птица": [
+                        {
+                            "product_id": 2944,
+                            "title": "Куриная грудка (филе, курица)",
+                            "mass": 215,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 2952,
+                            "title": "Фарш, куриный",
+                            "mass": 156,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 3046,
+                            "title": "Курица, бройлеры грудка запечённая",
+                            "mass": 100,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 6141,
+                            "title": "Фарш из индейки",
+                            "mass": 70,
+                            "unit": "г"
+                        }
+                    ],
+                    "Рыба": [
+                        {
+                            "product_id": 3258,
+                            "title": "Лосось, атлантический (семга)",
+                            "mass": 103,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 5970,
+                            "title": "Cod",
+                            "mass": 63,
+                            "unit": "г"
+                        }
+                    ],
+                    "Ягоды": [
+                        {
+                            "product_id": 4061,
+                            "title": "Оливки (чёрные), консервированные",
+                            "mass": 10,
+                            "unit": "г"
+                        }
+                    ],
+                    "Яйца": [
+                        {
+                            "product_id": 6853,
+                            "title": "Яичный белок, куриный, сырой",
+                            "mass": 9,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 6859,
+                            "title": "Яичный желток, куриный",
+                            "mass": 6,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 6870,
+                            "title": "Яйцо, куриное",
+                            "mass": 89,
+                            "unit": "г"
+                        },
+                        {
+                            "product_id": 6872,
+                            "title": "Яйцо, куриное вареное всмятку",
+                            "mass": 40,
+                            "unit": "г"
+                        }
+                    ]
+                }
+            ],
+            "rationOnWeeks": [
+                {
+                    "days": [
+                        {
+                            "eatings": [
+                                {
+                                    "eatingTime": "07:00",
+                                    "eatingName": "Завтрак",
+                                    "foods": [
+                                        {
+                                            "title": "Макароны из полбы цельнозерновые",
+                                            "mass": 160,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 490,
+                                            "protein": 23,
+                                            "fat": 4,
+                                            "carbohydrate": 95
+                                        },
+                                        {
+                                            "title": "Кофе",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 18,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "14:00",
+                                    "eatingName": "Обед",
+                                    "foods": [
+                                        {
+                                            "title": "Рис белый, длиннозерный приготовленный без соли",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 260,
+                                            "protein": 5,
+                                            "fat": 1,
+                                            "carbohydrate": 56
+                                        },
+                                        {
+                                            "title": "Вода",
+                                            "mass": 400,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 0,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Куриные котлеты с грибами и сыром",
+                                            "mass": 240,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 645,
+                                            "protein": 45,
+                                            "fat": 36,
+                                            "carbohydrate": 34
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "17:00",
+                                    "eatingName": "Ужин",
+                                    "foods": [
+                                        {
+                                            "title": "Картофель, белый неочищенный печеный",
+                                            "mass": 250,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 230,
+                                            "protein": 5,
+                                            "fat": 0,
+                                            "carbohydrate": 47
+                                        },
+                                        {
+                                            "title": "Чай ромашковый без сахара",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 2,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Суп из салата и нута",
+                                            "mass": 450,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 383,
+                                            "protein": 22,
+                                            "fat": 13,
+                                            "carbohydrate": 44
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "eatings": [
+                                {
+                                    "eatingTime": "07:00",
+                                    "eatingName": "Завтрак",
+                                    "foods": [
+                                        {
+                                            "title": "Биточки мясные",
+                                            "mass": 110,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 263,
+                                            "protein": 20,
+                                            "fat": 16,
+                                            "carbohydrate": 11
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "14:00",
+                                    "eatingName": "Обед",
+                                    "foods": [
+                                        {
+                                            "title": "Veal, braised brisket",
+                                            "mass": 100,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 218,
+                                            "protein": 30,
+                                            "fat": 10,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Кофе",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 18,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 3
+                                        },
+                                        {
+                                            "title": "Армянский лаваш",
+                                            "mass": 430,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 1120,
+                                            "protein": 31,
+                                            "fat": 19,
+                                            "carbohydrate": 206
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "17:00",
+                                    "eatingName": "Ужин",
+                                    "foods": [
+                                        {
+                                            "title": "Помидор (томат), грунтовый",
+                                            "mass": 270,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 65,
+                                            "protein": 3,
+                                            "fat": 1,
+                                            "carbohydrate": 10
+                                        },
+                                        {
+                                            "title": "Кофе, молотый (сваренный на воде)",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 2,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Салат из яблока, меда и корицы",
+                                            "mass": 400,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 305,
+                                            "protein": 2,
+                                            "fat": 1,
+                                            "carbohydrate": 68
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "eatings": [
+                                {
+                                    "eatingTime": "07:00",
+                                    "eatingName": "Завтрак",
+                                    "foods": [
+                                        {
+                                            "title": "Бананы",
+                                            "mass": 170,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 151,
+                                            "protein": 2,
+                                            "fat": 1,
+                                            "carbohydrate": 34
+                                        },
+                                        {
+                                            "title": "Вода",
+                                            "mass": 400,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 0,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Рулет с курицей",
+                                            "mass": 240,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 435,
+                                            "protein": 34,
+                                            "fat": 15,
+                                            "carbohydrate": 40
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "14:00",
+                                    "eatingName": "Обед",
+                                    "foods": [
+                                        {
+                                            "title": "Курица, бройлеры грудка запечённая",
+                                            "mass": 100,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 165,
+                                            "protein": 31,
+                                            "fat": 4,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Кофе",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 18,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 3
+                                        },
+                                        {
+                                            "title": "Гречневые котлеты с сыром",
+                                            "mass": 280,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 413,
+                                            "protein": 16,
+                                            "fat": 10,
+                                            "carbohydrate": 62
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "17:00",
+                                    "eatingName": "Ужин",
+                                    "foods": [
+                                        {
+                                            "title": "Картофель, фри",
+                                            "mass": 180,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 497,
+                                            "protein": 7,
+                                            "fat": 28,
+                                            "carbohydrate": 54
+                                        },
+                                        {
+                                            "title": "Чай ромашковый без сахара",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 2,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Сельдереевый салат с яблоком, морковью и мятой",
+                                            "mass": 370,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 327,
+                                            "protein": 3,
+                                            "fat": 1,
+                                            "carbohydrate": 73
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "eatings": [
+                                {
+                                    "eatingTime": "07:00",
+                                    "eatingName": "Завтрак",
+                                    "foods": [
+                                        {
+                                            "title": "Макароны из полбы цельнозерновые",
+                                            "mass": 210,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 643,
+                                            "protein": 31,
+                                            "fat": 5,
+                                            "carbohydrate": 125
+                                        },
+                                        {
+                                            "title": "Кофе, молотый (сваренный на воде)",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 2,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Котлеты в подливе",
+                                            "mass": 150,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 233,
+                                            "protein": 22,
+                                            "fat": 6,
+                                            "carbohydrate": 20
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "14:00",
+                                    "eatingName": "Обед",
+                                    "foods": [
+                                        {
+                                            "title": "Гречневая каша",
+                                            "mass": 350,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 354,
+                                            "protein": 11,
+                                            "fat": 12,
+                                            "carbohydrate": 51
+                                        },
+                                        {
+                                            "title": "Кофе, молотый (сваренный на воде)",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 2,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Стейк из лосося с вешенками",
+                                            "mass": 110,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 287,
+                                            "protein": 21,
+                                            "fat": 22,
+                                            "carbohydrate": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "17:00",
+                                    "eatingName": "Ужин",
+                                    "foods": [
+                                        {
+                                            "title": "Parmesan cheese, mass fraction of fat 36% in dry matter",
+                                            "mass": 15,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 63,
+                                            "protein": 4,
+                                            "fat": 4,
+                                            "carbohydrate": 2
+                                        },
+                                        {
+                                            "title": "Чай ромашковый без сахара",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 2,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Сельдереевый салат с яблоком, морковью и мятой",
+                                            "mass": 410,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 363,
+                                            "protein": 3,
+                                            "fat": 1,
+                                            "carbohydrate": 81
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "eatings": [
+                                {
+                                    "eatingTime": "07:00",
+                                    "eatingName": "Завтрак",
+                                    "foods": [
+                                        {
+                                            "title": "Макароны из полбы цельнозерновые",
+                                            "mass": 220,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 673,
+                                            "protein": 32,
+                                            "fat": 5,
+                                            "carbohydrate": 131
+                                        },
+                                        {
+                                            "title": "Кофе, молотый (сваренный на воде)",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 2,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "14:00",
+                                    "eatingName": "Обед",
+                                    "foods": [
+                                        {
+                                            "title": "Рис белый, длиннозерный приготовленный без соли",
+                                            "mass": 350,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 455,
+                                            "protein": 9,
+                                            "fat": 1,
+                                            "carbohydrate": 97
+                                        },
+                                        {
+                                            "title": "Кофе",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 18,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 3
+                                        },
+                                        {
+                                            "title": "Рыбные котлеты по‑русски из трески с капустой и…",
+                                            "mass": 100,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 211,
+                                            "protein": 13,
+                                            "fat": 14,
+                                            "carbohydrate": 7
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "17:00",
+                                    "eatingName": "Ужин",
+                                    "foods": [
+                                        {
+                                            "title": "Parmesan cheese, mass fraction of fat 36% in dry matter",
+                                            "mass": 20,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 84,
+                                            "protein": 6,
+                                            "fat": 6,
+                                            "carbohydrate": 3
+                                        },
+                                        {
+                                            "title": "Вода",
+                                            "mass": 400,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 0,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Салат из моркови, яблок и орехов",
+                                            "mass": 300,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 504,
+                                            "protein": 9,
+                                            "fat": 32,
+                                            "carbohydrate": 43
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "eatings": [
+                                {
+                                    "eatingTime": "07:00",
+                                    "eatingName": "Завтрак",
+                                    "foods": [
+                                        {
+                                            "title": "Кофе",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 18,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 3
+                                        },
+                                        {
+                                            "title": "Французский завтрак",
+                                            "mass": 190,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 879,
+                                            "protein": 34,
+                                            "fat": 18,
+                                            "carbohydrate": 134
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "14:00",
+                                    "eatingName": "Обед",
+                                    "foods": [
+                                        {
+                                            "title": "Картофель, фри",
+                                            "mass": 130,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 359,
+                                            "protein": 5,
+                                            "fat": 20,
+                                            "carbohydrate": 39
+                                        },
+                                        {
+                                            "title": "Вода",
+                                            "mass": 400,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 0,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Котлеты из индейки с грибной начинкой",
+                                            "mass": 100,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 221,
+                                            "protein": 15,
+                                            "fat": 17,
+                                            "carbohydrate": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "17:00",
+                                    "eatingName": "Ужин",
+                                    "foods": [
+                                        {
+                                            "title": "Кофе, молотый (сваренный на воде)",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 2,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Картофельный салат с яйцом",
+                                            "mass": 340,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 356,
+                                            "protein": 14,
+                                            "fat": 15,
+                                            "carbohydrate": 38
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "eatings": [
+                                {
+                                    "eatingTime": "07:00",
+                                    "eatingName": "Завтрак",
+                                    "foods": [
+                                        {
+                                            "title": "Йогурт, 6% жирности сладкий",
+                                            "mass": 110,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 123,
+                                            "protein": 6,
+                                            "fat": 7,
+                                            "carbohydrate": 9
+                                        },
+                                        {
+                                            "title": "Вода",
+                                            "mass": 400,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 0,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Курица в сметане с рисом",
+                                            "mass": 150,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 248,
+                                            "protein": 31,
+                                            "fat": 5,
+                                            "carbohydrate": 19
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "14:00",
+                                    "eatingName": "Обед",
+                                    "foods": [
+                                        {
+                                            "title": "Пшенная каша (пшено)",
+                                            "mass": 330,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 360,
+                                            "protein": 9,
+                                            "fat": 11,
+                                            "carbohydrate": 55
+                                        },
+                                        {
+                                            "title": "Вода",
+                                            "mass": 400,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 0,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Лимонные спагетти",
+                                            "mass": 460,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 831,
+                                            "protein": 27,
+                                            "fat": 30,
+                                            "carbohydrate": 113
+                                        }
+                                    ]
+                                },
+                                {
+                                    "eatingTime": "17:00",
+                                    "eatingName": "Ужин",
+                                    "foods": [
+                                        {
+                                            "title": "Яйцо, куриное вареное всмятку",
+                                            "mass": 40,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 63,
+                                            "protein": 5,
+                                            "fat": 5,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Чай травяной без сахара",
+                                            "mass": 200,
+                                            "type": "product",
+                                            "unit": "г",
+                                            "energy": 2,
+                                            "protein": 0,
+                                            "fat": 0,
+                                            "carbohydrate": 0
+                                        },
+                                        {
+                                            "title": "Салат из огурцов с медом",
+                                            "mass": 440,
+                                            "type": "recipe",
+                                            "unit": "г",
+                                            "energy": 292,
+                                            "protein": 4,
+                                            "fat": 1,
+                                            "carbohydrate": 66
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "average": {
+                        "energy": 1954,
+                        "protein": 85,
+                        "fat,": 57,
+                        "carbohydrate": 270,
+                        "water": 1548
+                    }
+                }
+            ],
+            "recipeOnWeeks": [
+                {
+                    "1357": {
+                        "title": "",
+                        "mass": 110,
+                        "description": "",
+                        "timeCook": "40 мин",
+                        "image": "/images/recipes/f-5f7a3219245d9.jpg",
+                        "products": [
+                            {
+                                "product_id": 4474,
+                                "title": "Подсолнечное масло, высокоолеиновое (>70%)",
+                                "mass_gr": 14,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3258,
+                                "title": "Лосось",
+                                "mass_gr": 103,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 756,
+                                "title": "Вешенки",
+                                "mass_gr": 34,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6631,
+                                "title": "Чеснок",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4828,
+                                "title": "Розмарин",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "1556": {
+                        "title": "",
+                        "mass": 190,
+                        "description": "",
+                        "timeCook": "30 мин",
+                        "image": "/images/recipes/f-5f7a32427de9d.jpg",
+                        "products": [
+                            {
+                                "product_id": 4659,
+                                "title": "Хлеб пшеничный",
+                                "mass_gr": 186,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3652,
+                                "title": "Молоко",
+                                "mass_gr": 309,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 332,
+                                "title": "Бананы",
+                                "mass_gr": 186,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "1839": {
+                        "title": "",
+                        "mass": 100,
+                        "description": "",
+                        "timeCook": "40 мин",
+                        "image": "/images/recipes/f-5f7a328a265e2.jpg",
+                        "products": [
+                            {
+                                "product_id": 4474,
+                                "title": "Подсолнечное масло, высокоолеиновое (>70%)",
+                                "mass_gr": 11,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6141,
+                                "title": "Фарш из индейки",
+                                "mass_gr": 70,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6654,
+                                "title": "Шампиньоны",
+                                "mass_gr": 42,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3281,
+                                "title": "Лук репчатый",
+                                "mass_gr": 21,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4131,
+                                "title": "Панировочные сухари",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5478,
+                                "title": "Соль",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4241,
+                                "title": "Перец черный молотый",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "4196": {
+                        "title": "",
+                        "mass": 400,
+                        "description": "",
+                        "timeCook": "10 мин",
+                        "image": "/images/recipes/f-5f7a35002f942.jpg",
+                        "products": [
+                            {
+                                "product_id": 6776,
+                                "title": "Яблоко",
+                                "mass_gr": 407,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3526,
+                                "title": "Мед",
+                                "mass_gr": 41,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 2713,
+                                "title": "Молотая корица",
+                                "mass_gr": 2,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "6534": {
+                        "title": "",
+                        "mass": 340,
+                        "description": "",
+                        "timeCook": "30 мин",
+                        "image": "/images/recipes/f-5f7a3772b955a.jpg",
+                        "products": [
+                            {
+                                "product_id": 3309,
+                                "title": "Льняное масло",
+                                "mass_gr": 7,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 2334,
+                                "title": "Молодой картофель",
+                                "mass_gr": 282,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6870,
+                                "title": "Яйцо куриное",
+                                "mass_gr": 73,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3202,
+                                "title": "Лимон",
+                                "mass_gr": 85,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4279,
+                                "title": "Петрушка",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4843,
+                                "title": "Рукола",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4008,
+                                "title": "Огурцы",
+                                "mass_gr": 78,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "11395": {
+                        "title": "",
+                        "mass": 240,
+                        "description": "",
+                        "timeCook": "35",
+                        "image": "/images/recipes/f-5f7a3e0a170a6.jpg",
+                        "products": [
+                            {
+                                "product_id": 4064,
+                                "title": "Оливковое масло",
+                                "mass_gr": 2,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5478,
+                                "title": "Соль, столовая йодированная",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 2175,
+                                "title": "Натуральный йогурт",
+                                "mass_gr": 20,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4008,
+                                "title": "Огурцы",
+                                "mass_gr": 22,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6631,
+                                "title": "Чеснок",
+                                "mass_gr": 4,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 2944,
+                                "title": "Куриное филе",
+                                "mass_gr": 90,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4241,
+                                "title": "Перец черный молотый",
+                                "mass_gr": 0,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3281,
+                                "title": "Красный лук",
+                                "mass_gr": 6,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5781,
+                                "title": "Сыр фета",
+                                "mass_gr": 40,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4061,
+                                "title": "Маслины без косточек",
+                                "mass_gr": 10,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 198,
+                                "title": "Салат айсберг",
+                                "mass_gr": 20,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3136,
+                                "title": "Армянский лаваш",
+                                "mass_gr": 60,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "13313": {
+                        "title": "",
+                        "mass": 430,
+                        "description": "",
+                        "timeCook": "30",
+                        "image": "/images/recipes/f-5f7a40105acdd.jpg",
+                        "products": [
+                            {
+                                "product_id": 828,
+                                "title": "Вода",
+                                "mass_gr": 116,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4625,
+                                "title": "Пшеничная мука",
+                                "mass_gr": 291,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5478,
+                                "title": "Соль",
+                                "mass_gr": 2,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3477,
+                                "title": "Сливочное масло",
+                                "mass_gr": 29,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 1783,
+                                "title": "Сухие дрожжи",
+                                "mass_gr": 5,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "13682": {
+                        "title": "",
+                        "mass": 240,
+                        "description": "",
+                        "timeCook": "40",
+                        "image": "/images/recipes/f-5f7a407411457.jpg",
+                        "products": [
+                            {
+                                "product_id": 4474,
+                                "title": "Подсолнечное масло, высокоолеиновое (>70%)",
+                                "mass_gr": 10,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6654,
+                                "title": "Шампиньоны",
+                                "mass_gr": 39,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 2952,
+                                "title": "Куриный фарш",
+                                "mass_gr": 156,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5733,
+                                "title": "Сыр пармезан",
+                                "mass_gr": 39,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6089,
+                                "title": "Укроп",
+                                "mass_gr": 5,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4131,
+                                "title": "Панировочные сухари",
+                                "mass_gr": 39,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5478,
+                                "title": "Соль",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4241,
+                                "title": "Перец черный молотый",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "16724": {
+                        "title": "",
+                        "mass": 150,
+                        "description": "",
+                        "timeCook": "40",
+                        "image": "/images/recipes/f-5f7a44e8b4923.jpg",
+                        "products": [
+                            {
+                                "product_id": 5478,
+                                "title": "Соль, столовая йодированная",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4778,
+                                "title": "Рис",
+                                "mass_gr": 23,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 2944,
+                                "title": "Куриное филе",
+                                "mass_gr": 124,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5376,
+                                "title": "Сметана 20%-ная",
+                                "mass_gr": 6,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5333,
+                                "title": "Сливки",
+                                "mass_gr": 5,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4241,
+                                "title": "Перец черный молотый",
+                                "mass_gr": 0,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "19714": {
+                        "title": "",
+                        "mass": 150,
+                        "description": "",
+                        "timeCook": "40",
+                        "image": "/images/recipes/f-5f7a47c83207f.jpg",
+                        "products": [
+                            {
+                                "product_id": 3281,
+                                "title": "Лук репчатый",
+                                "mass_gr": 8,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 1371,
+                                "title": "Говяжий фарш",
+                                "mass_gr": 84,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6631,
+                                "title": "Чеснок",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4659,
+                                "title": "Белый хлеб",
+                                "mass_gr": 10,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5329,
+                                "title": "Сливки 10%-ные",
+                                "mass_gr": 8,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5929,
+                                "title": "Томатная паста ",
+                                "mass_gr": 17,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4625,
+                                "title": "Пшеничная мука",
+                                "mass_gr": 3,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 828,
+                                "title": "Вода",
+                                "mass_gr": 28,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4131,
+                                "title": "Панировочные сухари",
+                                "mass_gr": 13,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5478,
+                                "title": "Соль",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4241,
+                                "title": "Перец черный молотый",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "22223": {
+                        "title": "",
+                        "mass": 780,
+                        "description": "",
+                        "timeCook": "20 минут",
+                        "image": "/images/recipes/f-5f7a4a6b323de.jpg",
+                        "products": [
+                            {
+                                "product_id": 3735,
+                                "title": "Морковь",
+                                "mass_gr": 238,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6776,
+                                "title": "Яблоко",
+                                "mass_gr": 238,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5216,
+                                "title": "Сельдерей",
+                                "mass_gr": 238,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3526,
+                                "title": "Мед",
+                                "mass_gr": 143,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5464,
+                                "title": "Лимонный сок",
+                                "mass_gr": 24,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3861,
+                                "title": "Мята",
+                                "mass_gr": 24,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "25137": {
+                        "title": "",
+                        "mass": 110,
+                        "description": "",
+                        "timeCook": "30 минут",
+                        "image": "/images/recipes/f-5f7a4d6fbc379.jpg",
+                        "products": [
+                            {
+                                "product_id": 5478,
+                                "title": "Соль, столовая йодированная",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 910,
+                                "title": "Говядина",
+                                "mass_gr": 88,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6870,
+                                "title": "Яйцо куриное",
+                                "mass_gr": 15,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4659,
+                                "title": "Белый хлеб",
+                                "mass_gr": 6,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3652,
+                                "title": "Молоко",
+                                "mass_gr": 5,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4625,
+                                "title": "Пшеничная мука",
+                                "mass_gr": 9,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 828,
+                                "title": "Вода",
+                                "mass_gr": 11,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4241,
+                                "title": "Перец черный молотый",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4220,
+                                "title": "Молотый красный перец",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4279,
+                                "title": "Петрушка",
+                                "mass_gr": 15,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "25143": {
+                        "title": "",
+                        "mass": 450,
+                        "description": "",
+                        "timeCook": "30 минут",
+                        "image": "/images/recipes/f-5f7a4d716555c.jpg",
+                        "products": [
+                            {
+                                "product_id": 5478,
+                                "title": "Соль, столовая йодированная",
+                                "mass_gr": 4,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4474,
+                                "title": "Подсолнечное масло, высокоолеиновое (>70%)",
+                                "mass_gr": 7,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 618,
+                                "title": "Куриный бульон",
+                                "mass_gr": 205,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3968,
+                                "title": "Консервированный нут",
+                                "mass_gr": 68,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4901,
+                                "title": "Смесь салатных листьев",
+                                "mass_gr": 109,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 317,
+                                "title": "Базилик",
+                                "mass_gr": 27,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6631,
+                                "title": "Чеснок",
+                                "mass_gr": 8,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4241,
+                                "title": "Перец черный молотый",
+                                "mass_gr": 4,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "25337": {
+                        "title": "",
+                        "mass": 100,
+                        "description": "",
+                        "timeCook": "40 минут",
+                        "image": "/images/recipes/f-5f7a4da4a0d23.jpg",
+                        "products": [
+                            {
+                                "product_id": 4474,
+                                "title": "Подсолнечное масло, высокоолеиновое (>70%)",
+                                "mass_gr": 3,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5478,
+                                "title": "Соль, столовая йодированная",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3281,
+                                "title": "Лук репчатый",
+                                "mass_gr": 9,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 2286,
+                                "title": "Белокочанная капуста",
+                                "mass_gr": 19,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6859,
+                                "title": "Яичный желток",
+                                "mass_gr": 6,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6853,
+                                "title": "Яичный белок",
+                                "mass_gr": 9,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4241,
+                                "title": "Перец черный молотый",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4131,
+                                "title": "Панировочные сухари",
+                                "mass_gr": 8,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4932,
+                                "title": "Сало",
+                                "mass_gr": 9,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5970,
+                                "title": "Треска",
+                                "mass_gr": 63,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "124546": {
+                        "title": "",
+                        "mass": 460,
+                        "description": "",
+                        "timeCook": "20",
+                        "image": "/images/recipes/f-607dead7ef003.jpg",
+                        "products": [
+                            {
+                                "product_id": 3345,
+                                "title": "Макароны, сухие",
+                                "mass_gr": 154,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4064,
+                                "title": "Оливковое масло",
+                                "mass_gr": 10,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6631,
+                                "title": "Чеснок, сырой",
+                                "mass_gr": 4,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4220,
+                                "title": "Перец красный, молотый острый",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3212,
+                                "title": "Лимонная цедра, сырая",
+                                "mass_gr": 3,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5464,
+                                "title": "Сок из лимона",
+                                "mass_gr": 7,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5336,
+                                "title": "Сливки, 35% жирности пастеризованные",
+                                "mass_gr": 24,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5733,
+                                "title": "Сыр пармезан, м.д.ж. 36% в сух. в-ве",
+                                "mass_gr": 31,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5478,
+                                "title": "Соль, столовая йодированная",
+                                "mass_gr": 0,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4241,
+                                "title": "Перец черный,  молотый или горошек",
+                                "mass_gr": 0,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4279,
+                                "title": "Петрушка, свежая",
+                                "mass_gr": 7,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "125059": {
+                        "title": "",
+                        "mass": 300,
+                        "description": "",
+                        "timeCook": "10",
+                        "image": "/images/recipes/f-608ace68715d1.jpg",
+                        "products": [
+                            {
+                                "product_id": 3735,
+                                "title": "Морковь",
+                                "mass_gr": 122,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6776,
+                                "title": "Яблоко",
+                                "mass_gr": 95,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 1525,
+                                "title": "Грецкий орех",
+                                "mass_gr": 41,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3526,
+                                "title": "Мед, пчелиный",
+                                "mass_gr": 27,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4279,
+                                "title": "Петрушка, свежая",
+                                "mass_gr": 27,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3477,
+                                "title": "Масло сливочное",
+                                "mass_gr": 14,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5464,
+                                "title": "Сок из лимона",
+                                "mass_gr": 27,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "125067": {
+                        "title": "",
+                        "mass": 440,
+                        "description": "",
+                        "timeCook": "10",
+                        "image": "/images/recipes/f-608ad4644c212.jpg",
+                        "products": [
+                            {
+                                "product_id": 4008,
+                                "title": "Огурец, грунтовый",
+                                "mass_gr": 351,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3526,
+                                "title": "Мед, пчелиный",
+                                "mass_gr": 70,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6089,
+                                "title": "Укроп, свежий",
+                                "mass_gr": 35,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5478,
+                                "title": "Соль, столовая йодированная",
+                                "mass_gr": 1,
+                                "mass_human": "г"
+                            }
+                        ]
+                    },
+                    "125888": {
+                        "title": "",
+                        "mass": 280,
+                        "description": "",
+                        "timeCook": "35",
+                        "image": "/images/recipes/f-60a19c8d47294.jpg",
+                        "products": [
+                            {
+                                "product_id": 1529,
+                                "title": "Гречиха, зерно",
+                                "mass_gr": 91,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 3281,
+                                "title": "Лук, репчатый",
+                                "mass_gr": 29,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 6631,
+                                "title": "Чеснок, сырой",
+                                "mass_gr": 2,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 4241,
+                                "title": "Перец черный,  молотый или горошек",
+                                "mass_gr": 0,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5478,
+                                "title": "Соль, столовая йодированная",
+                                "mass_gr": 0,
+                                "mass_human": "г"
+                            },
+                            {
+                                "product_id": 5772,
+                                "title": "Сыр сливочный 16,8% жирности, м.д.ж. 50% в сух. в-ве",
+                                "mass_gr": 41,
+                                "mass_human": "г"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
