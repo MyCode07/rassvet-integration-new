@@ -1,0 +1,1 @@
+[2024-07-30T19:33:39.172672+00:00] app.ERROR: Cannot create a report. Message: fwrite(): Argument #1 ($stream) must be of type resource, bool given [] []
