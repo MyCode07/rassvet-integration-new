@@ -91,9 +91,12 @@
                     <?php if (array_key_exists('medicine', $patient['meta']['allergy'])) : ?>
                         <label>Лекарства и БАДы:</label>
                         <ol>
-                            <?php foreach ($patient['meta']['allergy']['medicine']['medicine'] as $item) : ?>
-                                <li><?php echo $item ?></li>
-                            <?php endforeach; ?>
+                            <?php if (is_array($patient['meta']['allergy']['medicine']['medicine'])) :  ?>
+                                <?php foreach ($patient['meta']['allergy']['medicine']['medicine'] as $item) : ?>
+                                    <li><?php echo $item ?></li>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+
                             <?php if (array_key_exists('noAllergy', $patient['meta']['allergy']['medicine'])) : ?>
                                 <li><?php echo $patient['meta']['allergy']['medicine']['noAllergy'] ?></li>
                             <?php endif; ?>

@@ -61,8 +61,18 @@
                             const link = `<a href="#${id}">${linkText}</a>`
                             linkWrap.textContent = '';
                             linkWrap.insertAdjacentHTML('beforeend', link)
-                        }
 
+                            const createdLink = linkWrap.querySelector('a');
+
+                            if (createdLink && type == 'web') {
+                                createdLink.addEventListener('click', () => {
+                                    const currRecepieTab = recepie.closest('[data-tab-content]');
+                                    const activeRecepieTab = document.querySelector('.recepies [data-tab-content]._active');
+                                    activeRecepieTab.classList.remove('_active');
+                                    currRecepieTab.classList.add('_active');
+                                })
+                            }
+                        }
                     })
                 })
             }

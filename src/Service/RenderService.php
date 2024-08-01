@@ -382,4 +382,14 @@ class RenderService
 
         return $array_chunk;
     }
+
+    public function remove_nbsp($title)
+    {
+        if (!$title) return;
+        
+        $title = str_replace('&nbsp;',  '', $title);
+        $title = str_replace('/\s+/', ' ', $title);
+        $title = preg_replace('~\x{00a0}~siu', ' ', $title);
+        return $title;
+    }
 }

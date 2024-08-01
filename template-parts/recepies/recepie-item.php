@@ -4,6 +4,8 @@ $id = \App\Service\ReportService::translit($item['title']);
 
 if ($add_pdf_to_id) {
     $id .= '-pdf';
+} else {
+    $id = $this->remove_nbsp($id);
 }
 
 ?>

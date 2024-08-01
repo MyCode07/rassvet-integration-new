@@ -1,0 +1,2 @@
+[2024-08-01T05:59:05.507141+00:00] app.ERROR: Cannot create a report. Message: Call to undefined method App\Service\ReportService::remove_nbsp() [] []
+[2024-08-01T05:59:27.026700+00:00] app.ERROR: Cannot create a report. Message: Call to undefined method App\Service\ReportService::remove_nbsp() [] []
