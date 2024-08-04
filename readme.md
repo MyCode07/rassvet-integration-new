@@ -1,3 +1,15 @@
+# 03.08.2024
+эндпоинт: /add-report
+Это POST запрос который ожидает json в теле. Пример curl запроса:
+
+curl --location 'http://0.0.0.0:8080/add-report' 
+--header 'Content-Type: application/json' 
+--data  ....
+
+Возвращает json путь к файлу и url (добавьте HOME_URL в .env)
+
+
+# 29.07.2024
 Для роутинга добавил fast-route.
 
 Для логирования monolog.

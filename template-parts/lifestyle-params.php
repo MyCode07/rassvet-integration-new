@@ -6,7 +6,7 @@
                     <div class="params-item__left">
                         <div class="icon">
                             <svg width="30" height="27" viewBox="0 0 30 27">
-                                <use xlink:href='../assets/img/svg/icons.svg#heart' />
+                                <use xlink:href='<?= $assetsUrl ?>/img/svg/icons.svg#heart' />
                             </svg>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                     <div class="params-item__left">
                         <div class="icon">
                             <svg width="20" height="28" viewBox="0 0 20 28">
-                                <use xlink:href='../assets/img/svg/icons.svg#lightning' />
+                                <use xlink:href='<?= $assetsUrl ?>/img/svg/icons.svg#lightning' />
                             </svg>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                         <p>
                             <?php echo $stress ?>
                             <svg width="15" height="15" viewBox="0 0 15 15">
-                                <use xlink:href='../assets/img/svg/icons.svg#arrow-<?php echo $icon ?>' />
+                                <use xlink:href='<?= $assetsUrl ?>/img/svg/icons.svg#arrow-<?php echo $icon ?>' />
                             </svg>
                         </p>
                     </div>
@@ -66,7 +66,7 @@
                 <div class="params-item__left">
                     <div class="icon">
                         <svg width="27" height="27" viewBox="0 0 27 27">
-                            <use xlink:href='../assets/img/svg/icons.svg#stop' />
+                            <use xlink:href='<?= $assetsUrl ?>/img/svg/icons.svg#stop' />
                         </svg>
                     </div>
                 </div>
@@ -91,12 +91,9 @@
                     <?php if (array_key_exists('medicine', $patient['meta']['allergy'])) : ?>
                         <label>Лекарства и БАДы:</label>
                         <ol>
-                            <?php if (is_array($patient['meta']['allergy']['medicine']['medicine'])) :  ?>
-                                <?php foreach ($patient['meta']['allergy']['medicine']['medicine'] as $item) : ?>
-                                    <li><?php echo $item ?></li>
-                                <?php endforeach; ?>
-                            <?php endif; ?>
-
+                            <?php foreach ($patient['meta']['allergy']['medicine']['medicine'] as $item) : ?>
+                                <li><?php echo $item ?></li>
+                            <?php endforeach; ?>
                             <?php if (array_key_exists('noAllergy', $patient['meta']['allergy']['medicine'])) : ?>
                                 <li><?php echo $patient['meta']['allergy']['medicine']['noAllergy'] ?></li>
                             <?php endif; ?>
@@ -126,7 +123,7 @@
                     <div class="params-item__left">
                         <div class="icon">
                             <svg width="30" height="30" viewBox="0 0 30 30">
-                                <use xlink:href='../assets/img/svg/icons.svg#star' />
+                                <use xlink:href='<?= $assetsUrl ?>/img/svg/icons.svg#star' />
                             </svg>
                         </div>
                     </div>
@@ -150,7 +147,7 @@
                     <div class="params-item__left">
                         <div class="icon">
                             <svg width="27" height="23" viewBox="0 0 27 23">
-                                <use xlink:href='../assets/img/svg/icons.svg#attention' />
+                                <use xlink:href='<?= $assetsUrl ?>/img/svg/icons.svg#attention' />
                             </svg>
                         </div>
                     </div>
@@ -182,7 +179,7 @@
         <div class="params-item__wrap">
             <div class="icon">
                 <svg width="48" height="48" viewBox="0 0 48 48">
-                    <use xlink:href='../assets/img/svg/icons.svg#info' />
+                    <use xlink:href='<?= $assetsUrl ?>/img/svg/icons.svg#info' />
                 </svg>
             </div>
             <h3>Заключение</h3>

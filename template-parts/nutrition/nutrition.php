@@ -16,7 +16,7 @@
                 <div class="params-item__left">
                     <div class="icon">
                         <svg width="22" height="26" viewBox="0 0 22 26">
-                            <use xlink:href='../assets/img/svg/icons.svg#glass' />
+                            <use xlink:href='<?= $assetsUrl ?>/img/svg/icons.svg#glass' />
                         </svg>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                 <div class="params-item__left">
                     <div class="icon">
                         <svg width="22" height="26" viewBox="0 0 22 26">
-                            <use xlink:href='../assets/img/svg/icons.svg#cutlery' />
+                            <use xlink:href='<?= $assetsUrl ?>/img/svg/icons.svg#cutlery' />
                         </svg>
                     </div>
                 </div>

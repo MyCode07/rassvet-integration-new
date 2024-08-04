@@ -4,8 +4,6 @@ $id = \App\Service\ReportService::translit($item['title']);
 
 if ($add_pdf_to_id) {
     $id .= '-pdf';
-} else {
-    $id = $this->remove_nbsp($id);
 }
 
 ?>
@@ -14,7 +12,7 @@ if ($add_pdf_to_id) {
         <h3 class="recepie-title"><?php echo $item['title'] ?></h3>
         <time>
             <svg width="14" height="14" viewBox="0 0 14 14">
-                <use xlink:href='../assets/img/svg/icons.svg#time' />
+                <use xlink:href='<?= $assetsUrl ?>/img/svg/icons.svg#time' />
             </svg>
             <?php echo $item['timeCook'] ?>
         </time>
@@ -44,7 +42,7 @@ if ($add_pdf_to_id) {
                 <?php if ($item['image']) : ?>
                     <img src="<?php echo $item['image'] ?>" alt="">
                 <?php else : ?>
-                    <img src="../assets/img/recepie-no.png" alt="">
+                    <img src="<?= $assetsUrl ?>/img/recepie-no.png" alt="">
                 <?php endif; ?>
             </div>
         </div>

@@ -4,9 +4,11 @@ declare(strict_types=1);
 
 namespace App\Service;
 
+use App\DTO\ReportResultDTO;
+
 class ReportService
 {
-    public function create(RenderService $render, array $json): string|false
+    public function create(RenderService $render, array $json): ReportResultDTO
     {
         $json_data = $json['data'];
 
@@ -72,15 +74,21 @@ class ReportService
 
         // start building html
         ob_start();
-        require APPLICATION_PATH . '/template-parts/head.php';
+        try {
+            $assetsUrl = getenv('ASSETS_URL') ?: '../assets';
+            require APPLICATION_PATH . '/template-parts/head.php';
 
-        // web page
-        require APPLICATION_PATH . '/pages/page-web.php';
+            // web page
+            require APPLICATION_PATH . '/pages/page-web.php';
 
-        // pdf page
-        require APPLICATION_PATH . '/pages/page-pdf.php';
+            // pdf page
+            require APPLICATION_PATH . '/pages/page-pdf.php';
 
-        require APPLICATION_PATH . '/template-parts/scripts.php';
+            require APPLICATION_PATH . '/template-parts/scripts.php';
+        } catch (\Throwable $e) {
+            ob_clean();
+            throw new $e;
+        }
 
         $newcontent = ob_get_contents();
         ob_clean();
@@ -92,12 +100,13 @@ class ReportService
         $random_name = 'report_' . $this->translit($patient['last_name']) . '_' . date('Y-m-d-H-m-s');
 
         $filename = $file_dir . $random_name . '.html';
+        $url = (getenv('HOME_URL') ?: '/') . substr($filename, strpos($filename, 'public/') + 7);
 
         $handle = fopen($filename, 'w+');
-        $file = fwrite($handle, $newcontent);
+        fwrite($handle, $newcontent);
         fclose($handle);
 
-        return file_exists($filename) ? $newcontent : false;
+        return new ReportResultDTO($filename, $url, $newcontent);
     }
 
     public static function translit(string $value): string

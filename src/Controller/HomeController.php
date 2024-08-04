@@ -28,7 +28,7 @@ class HomeController
             $source = new SourceService();
 
             $reportService = new ReportService();
-            $result = $reportService->create($report, $source->getFormatted());
+            $result = $reportService->create($report, $source->getFormatted())->reportContent;
 
             if (!$result) {
                 throw new \RuntimeException('Невозможно создать отчет');
