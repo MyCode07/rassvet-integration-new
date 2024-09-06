@@ -11,17 +11,17 @@
                 <tr class="proteins">
                     <td class="percent" data-color="<?php echo $render->colors[0] ?>" style="--color:<?php echo $render->colors[0] ?>"><?php echo $diary['ratioPFC']['proteinPercent'] ?>%</td>
                     <td>Белки</td>
-                    <td><?php echo $diary['ratioPFC']['protein'] ?> ккал</td>
+                    <td><?php echo $diary['ratioPFC']['protein'] ?> г</td>
                 </tr>
                 <tr class="fats">
                     <td class="percent" data-color="<?php echo $render->colors[1] ?>" style="--color:<?php echo $render->colors[1] ?>"><?php echo $diary['ratioPFC']['fatsPercent'] ?>%</td>
                     <td>Жиры</td>
-                    <td><?php echo $diary['ratioPFC']['fat'] ?> ккал</td>
+                    <td><?php echo $diary['ratioPFC']['fat'] ?> г</td>
                 </tr>
                 <tr class="carbohydrates">
                     <td class="percent" data-color="<?php echo $render->colors[2] ?>" style="--color:<?php echo $render->colors[2] ?>"><?php echo $diary['ratioPFC']['carbohydratePercent'] ?>%</td>
                     <td>Углеводы</td>
-                    <td><?php echo $diary['ratioPFC']['carbohydrate'] ?> ккал</td>
+                    <td><?php echo $diary['ratioPFC']['carbohydrate'] ?> г</td>
                 </tr>
                 <tr class="ptc">
                     <td class="percent" data-color="<?php echo $render->colors[3] ?>" style="--color:<?php echo $render->colors[3] ?>"><?php echo $diary['ratioPFC']['ratio'] ?></td>

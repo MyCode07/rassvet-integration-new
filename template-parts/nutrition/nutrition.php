@@ -92,6 +92,10 @@
     <?php endif; ?>
 </div>
 
+<?php
+$nutrientsInfo = $render->find_key('nutrientsInfo', $diary);
+$nutr_graphic = $render->find_key('meta', $nutrientsInfo);
+?>
 <div class="nutrition-info text-accent italic">
     Рацион человека состоит из нескольких десятков важнейших для здоровья веществ: витамины,
     минералы,
@@ -103,16 +107,15 @@
     много) или в
     дефиците (поступает
     слишком мало), то это может привести к различным заболеваниям.
-    Анализ вашего прошлого рациона показал, что: 52% важнейших веществ поступает в ваш организм
+    Анализ вашего прошлого рациона показал, что: <?php echo $nutr_graphic['normal'] ?>% важнейших веществ поступает в ваш организм
     в
     оптимальном количестве. В
-    то же время 43% полезных веществ вы недополучаете. А 5% — поступают в организм в чрезмерно
+    то же время <?php echo $nutr_graphic['deficit'] ?>% полезных веществ вы недополучаете. А <?php echo $nutr_graphic['excess'] ?>% — поступают в организм в чрезмерно
     большом
     количестве.
 </div>
 <?php
-$nutrientsInfo = $render->find_key('nutrientsInfo', $diary);
-$nutr_graphic = $render->find_key('meta', $nutrientsInfo);
+
 
 if ($nutrientsInfo && $nutr_graphic) :
 ?>

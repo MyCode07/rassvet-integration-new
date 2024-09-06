@@ -64,28 +64,29 @@
             </div>
             <div class="tabs-content">
 
-
                 <?php
-                $i = 1;
+                $idx = 1;
                 foreach ($infoNutrientsByRation as $item) :
-                    if ($i == 1) {
+                    if ($idx == 1) {
                         $_active = '_active';
                     } else {
                         $_active = '';
                     }
                 ?>
-                    <div data-tab-content="<?php echo $i ?>" class="<?php echo $_active ?>">
-                        <?php
-                        // $diagram = $render->get_nutrition_diagramm_array($diary);
-                        // foreach ($diagram as $item) {
-                        //     if ($item['data']) {
-                        //         include APPLICATION_PATH . '/template-parts/nutrition/nutrition-diagram/' . $item['template'] . '.php';
-                        //     }
-                        // }
-                        ?>
+                    <div data-tab-content="<?php echo $idx ?>" class="<?php echo $_active ?>">
+                        <div class="grid grid-2">
+                            <?php
+                            $diagram = $render->get_nutrition_diagramm_array($diary);
+                            foreach ($diagram as $item) {
+                                if ($item['data']) {
+                                    include APPLICATION_PATH . '/template-parts/nutrition/nutrition-diagram/' . $item['template'] . '.php';
+                                }
+                            }
+                            ?>
+                        </div>
                     </div>
                 <?php
-                    $i++;
+                    $idx++;
                 endforeach;
                 ?>
 

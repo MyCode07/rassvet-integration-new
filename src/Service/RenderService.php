@@ -56,7 +56,9 @@ class RenderService
             'Другое'  => 'other-food',
             'Напитки' => 'drinks',
             'Алкоголь' => 'alcohol',
-            'Cпортпит' => ''
+            'Cпортпит' => '',
+            'Растения' => '',
+            'Продукты' => '',
         ];
     }
 
@@ -93,9 +95,7 @@ class RenderService
         return $out;
     }
 
-    public function get_text($url, $tempalte = '')
-    {
-    }
+    public function get_text($url, $tempalte = '') {}
 
     public function clean_str($str)
     {
@@ -207,7 +207,7 @@ class RenderService
     // result item
     public function get_result_item($title, $data, $template = 'result-item')
     {
-        if (!$data['mass']) return;
+        // if (!$data['mass']) return;
         $percent = $this->calc_to_percent($data['minThreshold'], $data['maxThreshold'], $data['mass'], $data['norm']);
         $delta = $data['maxThreshold'] - $data['minThreshold'];
         require APPLICATION_PATH . '/template-parts/' . $template . '.php';

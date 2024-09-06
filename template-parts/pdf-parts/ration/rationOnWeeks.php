@@ -3,36 +3,38 @@ foreach ($rationOnWeeks as $w_idx => $week) :
     foreach ($week['days'] as $d_idx => $day) :
         $sorted_eatings = $render->chunk_array($day['eatings'], 4000, false, true);
         foreach ($sorted_eatings as $eatings) :
+            if ($eatings):
 ?>
-            <section class="section nutrition-plan" id="nutrition-plan-w<?php echo $w_idx + 1 ?>-d<?php echo $d_idx + 1 ?>" data-tabs-area>
-                <div class="section__container _container">
-                    <?php
-                    require APPLICATION_PATH . '/template-parts/pdf-parts/header.php';
-                    ?>
-                    <div class="section__body">
+                <section class="section nutrition-plan" id="nutrition-plan-w<?php echo $w_idx + 1 ?>-d<?php echo $d_idx + 1 ?>" data-tabs-area>
+                    <div class="section__container _container">
                         <?php
-                        $section_title = 'Ваш персональный план питания. Неделя ' .  $w_idx + 1;
-                        require APPLICATION_PATH . '/template-parts/pdf-parts/section-title.php';
+                        require APPLICATION_PATH . '/template-parts/pdf-parts/header.php';
                         ?>
-                        <div class="tabs">
-                            <button class="day">День <?php echo $d_idx + 1 ?></button>
-                        </div>
-
-                        <div class="grid">
+                        <div class="section__body">
                             <?php
-                            $render->get_ration_meals($eatings);
+                            $section_title = 'Ваш персональный план питания. Неделя ' .  $w_idx + 1;
+                            require APPLICATION_PATH . '/template-parts/pdf-parts/section-title.php';
                             ?>
+                            <div class="tabs">
+                                <button class="day">День <?php echo $d_idx + 1 ?></button>
+                            </div>
+
+                            <div class="grid">
+                                <?php
+                                $render->get_ration_meals($eatings);
+                                ?>
+                            </div>
+
                         </div>
-
+                        <?php
+                        require APPLICATION_PATH . '/template-parts/pdf-parts/footer.php';
+                        ?>
                     </div>
-                    <?php
-                    require APPLICATION_PATH . '/template-parts/pdf-parts/footer.php';
-                    ?>
-                </div>
-            </section>
-
+                </section>
         <?php
-        endforeach; ?>
+            endif;
+        endforeach;
+        ?>
         <?php
         if ($d_idx == count($week['days']) - 1) :
         ?>
